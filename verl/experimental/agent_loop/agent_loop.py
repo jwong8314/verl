@@ -351,6 +351,7 @@ class AgentLoopWorker:
 
 
 async def get_trajectory_info(step, index):
+    "TMP"
     trajectory_info = []
     rollout_n = 0
     for i in range(len(index)):
